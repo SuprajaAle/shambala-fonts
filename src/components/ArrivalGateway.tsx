@@ -68,7 +68,7 @@ const ArrivalGateway: React.FC = () => {
           className="mb-8"
         >
           <motion.h1
-            className="text-6xl md:text-8xl font-bold text-white mb-6"
+            className="text-6xl md:text-8xl font-cosmic font-bold text-white mb-6 tracking-wider"
             animate={{ 
               textShadow: [
                 '0 0 20px rgba(0, 255, 255, 0.5)',
@@ -82,10 +82,10 @@ const ArrivalGateway: React.FC = () => {
           </motion.h1>
           
           <div className="h-px bg-gradient-to-r from-transparent via-neon-cyan to-transparent w-full max-w-2xl mx-auto mb-6" />
-          <p className="text-xl md:text-2xl lg:text-3xl font-sacred text-neon-cyan/80 mb-2">
+          <p className="text-xl md:text-2xl lg:text-3xl font-sacred text-neon-cyan/80 mb-2 font-bold">
             The Higher Dimension
           </p>
-          <p className="text-base md:text-lg text-white/60 max-w-2xl mx-auto leading-relaxed">
+          <p className="text-base md:text-lg font-body text-white/60 max-w-2xl mx-auto leading-relaxed">
             Awaken to cosmic luxury. Transcend reality through sacred travel
             experiences that bridge ancient wisdom with infinite possibility.
           </p>
@@ -93,7 +93,7 @@ const ArrivalGateway: React.FC = () => {
 
         <motion.button
           onClick={scrollToNext}
-          className="cursor-hover group relative px-8 md:px-12 py-3 md:py-4 rounded-full bg-white/5 backdrop-blur-lg border border-neon-cyan/30 text-neon-cyan font-cosmic text-base md:text-lg tracking-wide"
+          className="cursor-hover group relative px-8 md:px-12 py-3 md:py-4 rounded-full bg-white/5 backdrop-blur-lg border border-neon-cyan/30 text-neon-cyan font-display font-semibold text-base md:text-lg tracking-wide"
           initial={{ opacity: 0, y: 30 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ delay: 2, duration: 1 }}

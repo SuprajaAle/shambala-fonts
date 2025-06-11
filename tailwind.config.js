@@ -67,8 +67,15 @@ export default {
         },
       },
       fontFamily: {
-        cosmic: ["Inter", "system-ui", "sans-serif"],
-        sacred: ["Georgia", "serif"],
+        // Primary fonts
+        sans: ['Sora', 'system-ui', 'sans-serif'],
+        
+        // Specialized fonts
+        cosmic: ['Orbitron', 'sans-serif'], // Futuristic hero sections
+        sacred: ['Cinzel Decorative', 'serif'], // Spiritual/brand identity
+        display: ['Rajdhani', 'sans-serif'], // Clean headings
+        body: ['Exo 2', 'sans-serif'], // Readable body text
+        psychedelic: ['Zen Tokyo Zoo', 'cursive'], // Rave/artistic sections
       },
       backdropBlur: {
         xs: "2px",
